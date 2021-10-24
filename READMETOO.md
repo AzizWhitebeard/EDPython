@@ -13,4 +13,4 @@ phone or something
 	and press "ctrl + s"
 	then you should be fine
 
-PLEASE READ "rHowToSetUpJuggSctip.md" PLEASE
+PLEASE READ "rHowToSetUpJuggScript.md" PLEASE
