@@ -8,7 +8,7 @@ MI.Pause = 0.001
 
 skype = False
 
-warTime = False
+warTime = True
 killLimit = -1
 maxBattles = 50
 
