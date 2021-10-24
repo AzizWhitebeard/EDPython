@@ -6,7 +6,7 @@ import finishBattle as CB
 import random
 MI.Pause = 0.001
 
-skype = True
+skype = False
 
 warTime = False
 killLimit = -1
