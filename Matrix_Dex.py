@@ -144,7 +144,7 @@ def Matrix():
                     startingTime = overallTime = time.time()
                 else:
                     startingTime = time.time()
-                time.sleep(1)
+                time.sleep(1.5)
                
 
 
