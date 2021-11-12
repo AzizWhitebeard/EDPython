@@ -598,7 +598,7 @@ def finish(kills, losses):
             return kills, losses, victory
 
         print("\nFailed with 65 confidence")
-        print("\tConfidence -15\n")
+        print("\tConfidence -10\n")
         #print("\tX Buttons found:\n")
         
 ##############################################################
