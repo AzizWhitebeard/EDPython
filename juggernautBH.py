@@ -509,8 +509,10 @@ def Juggernaut():
                     time.sleep(0.2)
                     MI.click(1227,535)
                     #Super war drop click area
-                    time.sleep(0.2)
-                    MI.click(1556,600)
+                    if MI.locateCenterOnScreen('images/skills/warX.png', confidence = 0.70, region=(1719,390, 1768, 438)):
+                        MI.click(1556,600)
+                    else:
+                        pass
 
             ##Enters the jugg battle
             numBattles = numBattles + 1
