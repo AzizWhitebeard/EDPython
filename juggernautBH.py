@@ -503,7 +503,7 @@ def Juggernaut():
             ##Searches for a war objective before we enter a battle and drops bomb if there is one
             #WARR
             if warTime == True:
-                objective = MI.locateCenterOnScreen('images/skills/Warleg3.png', confidence = 0.70)
+                objective = MI.locateCenterOnScreen('images/skills/Warleg4.png', confidence = 0.70)
                 if(objective):
                     MI.click(objective)
                     time.sleep(0.2)
