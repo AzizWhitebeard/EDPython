@@ -1,5 +1,5 @@
 import pyautogui as MI
-import groups2 as group
+import groups as group
 import time
 import math
 import finishBattle as CB
