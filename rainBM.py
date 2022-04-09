@@ -1,6 +1,8 @@
 import time
 import pyautogui as MI
 import random
+import math
+import finishBattle as CB
 
 skype = False
 
