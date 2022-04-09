@@ -32,19 +32,19 @@ time.sleep(1)
 
 def findRoom(roomDone, checks, obMPX, obMPY):
     if roomDone == False:
-        if MI.locateCenterOnScreen('images/skills/RightOb.png', confidence=0.80, region=(1038, 415, 1110, 492)):
+        if MI.locateCenterOnScreen('images/skills//war/CentralRightOb.png', confidence=0.80, region=(1038, 415, 1110, 492)):
             obMPX = 1245
             obMPY = 544
             roomDone = True
             checks+=1
             return roomDone, checks, obMPX, obMPY
-        elif MI.locateCenterOnScreen('images/skills/LeftOb.png', confidence=0.80, region=(969, 408, 1222, 649)):
+        elif MI.locateCenterOnScreen('images/skills/war/CentralLeftOb.png', confidence=0.80, region=(969, 408, 1222, 649)):
             obMPX = 1435
             obMPY = 527
             roomDone = True
             checks+=1
             return roomDone, checks, obMPX, obMPY
-        elif MI.locateCenterOnScreen('images/skills/MiddleOb.png', confidence=0.80, region=(1717, 465, 1887, 601)):
+        elif MI.locateCenterOnScreen('images/skills/war/CentralMiddleOb.png', confidence=0.80, region=(1717, 465, 1887, 601)):
             obMPX = 1241
             obMPY = 475
             roomDone = True
