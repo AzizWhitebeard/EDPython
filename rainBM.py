@@ -328,11 +328,13 @@ def Jugg():
                 #STRIKE
                 if(MI.pixelMatchesColor(1403, 563, (197, 177, 112))):
                     if HumanTop or HumanBottom:
+                        turns = turns + 1
                         checkForHealHuman()
                         withHumans(r,g,b)
                         privateChat()
                         mouseMove()
                     else:
+                        turns = turns + 1
                         checkForHeal()
                         topNPCAlive, bottomNPCAlive = noHumans(topNPCAlive, bottomNPCAlive)
                         privateChat()
