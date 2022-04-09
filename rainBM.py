@@ -3,6 +3,7 @@ import pyautogui as MI
 import random
 import math
 import finishBattle as CB
+MI.Pause = 0.001
 
 skype = False
 
@@ -91,7 +92,7 @@ def checkForHeal():
         print("\t\tHealing\n")
         
         #Medic
-        MI.click(MI.locateCenterOnScreen('images/medic.png', confidence=0.70, region=(1020,665,680,90)))
+        MI.click(MI.locateCenterOnScreen('images/skills/medic.png', confidence=0.70, region=(1020,665,680,90)))
 
         #Health booster
         MI.click(1819, 622)
@@ -107,7 +108,7 @@ def checkForHealHuman():
         print("\t\tHealing against huaman(s)\n")
         
         #Medic
-        MI.click(MI.locateCenterOnScreen('images/medic.png', confidence=0.70, region=(1020,665,680,90)))
+        MI.click(MI.locateCenterOnScreen('images/skills/medic.png', confidence=0.70, region=(1020,665,680,90)))
 
         #Health booster
         MI.click(1819, 622)
