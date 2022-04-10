@@ -147,7 +147,8 @@ def withHumans(r,g,b):
     MI.click(1081, 653)
     #Top NPC
     MI.click(1170, 535)
-
+    
+    time.sleep(2.5)
     if HumanTop and HumanBottom:
         pass
     
@@ -189,7 +190,7 @@ def noHumans(topNPCAlive, bottomNPCAlive):
 
     #Bottom NPC Color
     #(1110, 376, (168, 10, 10))
-    time.sleep(1.5)
+    time.sleep(2.5)
     if not MI.pixelMatchesColor(1111, 267, (179, 8, 8)) and topNPCAlive:
         print("\t\tDead NPC Top\n")
         topNPCAlive = False
