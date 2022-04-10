@@ -92,7 +92,7 @@ def checkForHeal():
         print("\t\tHealing\n")
         
         #Medic
-        MI.click(MI.locateCenterOnScreen('images/skills/medic.png', confidence=0.70, region=(1020,665,680,90)))
+        MI.click(MI.locateCenterOnScreen('images/skills/medic.png', confidence=0.70, region=(1021, 671, 1849, 736)))
 
         #Health booster
         MI.click(1819, 622)
@@ -108,7 +108,7 @@ def checkForHealHuman():
         print("\t\tHealing against huaman(s)\n")
         
         #Medic
-        MI.click(MI.locateCenterOnScreen('images/skills/medic.png', confidence=0.70, region=(1020,665,680,90)))
+        MI.click(MI.locateCenterOnScreen('images/skills/medic.png', confidence=0.70, region=(1021, 671, 1849, 736)))
 
         #Health booster
         MI.click(1819, 622)
@@ -136,7 +136,7 @@ def withHumans(r,g,b):
     MI.click(1682, 633)
 
     #Rain
-    MI.click(MI.locateCenterOnScreen('images/rain.png', confidence=0.55, region=(1020,665,680,90)))
+    MI.click(MI.locateCenterOnScreen('images/rain.png', confidence=0.55, region=(1021, 671, 1849, 736)))
 
     #Sidearm
     MI.click(1197, 634)
@@ -176,7 +176,7 @@ def noHumans(topNPCAlive, bottomNPCAlive):
     MI.click(1682, 633)
 
     #Rain
-    MI.click(MI.locateCenterOnScreen('images/rain.png', confidence=0.55, region=(1020,665,680,90)))
+    MI.click(MI.locateCenterOnScreen('images/rain.png', confidence=0.55, region=(1021, 671, 1849, 736)))
 
     #Sidearm
     MI.click(1197, 634)
