@@ -103,6 +103,6 @@ def doWar(roomDone, checks, obMPX, obMPY, roomR, roomG, roomB):
                 
         else:
             print("Error: WarType was not supported in warObjective.py")
-            return roomDone, checks, obMPX, obMPY
+            return roomDone, checks, obMPX, obMPY, roomR, roomG, roomB
     else:
-        return roomDone, checks, obMPX, obMPY
+        return roomDone, checks, obMPX, obMPY, roomR, roomG, roomB
