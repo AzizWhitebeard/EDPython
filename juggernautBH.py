@@ -123,8 +123,8 @@ def warCommander():
     global WCFlag
     global turns
     global wantWC
-    if wantWC == False:
-        return WCFlag == False
+    if not wantWC:
+        return
     if(not WCFlag and turns == 0):
         WC = MI.locateCenterOnScreen('images/skills/one.png', confidence = 0.70, region = (1067, 635, 15, 25))
         if(WC): 
