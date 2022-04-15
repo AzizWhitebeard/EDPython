@@ -136,8 +136,8 @@ def warCommander():
 
 ###Function for healing
 def checkForHeal():
-    notHeal = MI.locateCenterOnScreen('images/skills/health.png', confidence = 0.90, region = (960, 805, 100, 40))
-    if not notHeal:
+    r,g,b = MI.pixel(1792, 247)
+    if(b <= 40):
         print("\t\tHealing\n")
 
         ##HP Booster
@@ -154,8 +154,8 @@ def checkForHeal():
 
 ###Function for healing with people
 def checkForHealHuman():
-    notHeal = MI.locateCenterOnScreen('images/skills/health.png', confidence = 0.90, region = (960, 805, 100, 40))
-    if not notHeal:
+    r,g,b = MI.pixel(1792, 247)
+    if(b <= 40):
         print("\t\tHealing against humans\n")
 
         ##Medic
