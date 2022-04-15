@@ -129,6 +129,7 @@ def privateChat():
 def warCommander():
     global WCFlag
     global turns
+    global wantWarCommander
     if not wantWarCommander:
         return
     if(not WCFlag and turns == 0):
