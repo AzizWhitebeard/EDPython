@@ -4,6 +4,7 @@ import time
 import math
 import finishBattle as CB
 import random
+import warObjective as WAR
 MI.Pause = 0.001
 
 skype = False
