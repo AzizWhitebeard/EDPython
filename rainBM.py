@@ -172,7 +172,7 @@ def checkForHealHuman():
     return
 
 
-def withHumans(r,g,b):
+def withHumans(r,g,b, HumanTop, HumanBottom):
     global Human
     #Top NPC Color
     #(1111, 267, (177, 8, 8))
@@ -217,7 +217,7 @@ def withHumans(r,g,b):
         #Checking if human is still there
         if not MI.pixelMatchesColor(1110, 376,(r, g, b)):
             print("\t\tDead Human Bottom\n")
-    return r,g,b
+    return r,g,b, HumanTop, HumanBottom
 
 def noHumans(topNPCAlive, bottomNPCAlive):
     global turns
@@ -409,7 +409,7 @@ def Jugg():
                             warCommander()
                         turns=turns + 1
                         checkForHealHuman()
-                        withHumans(r,g,b)
+                        withHumans(r,g,b, HumanTop, HumanBottom)
                         privateChat()
                         mouseMove()
                     else:
