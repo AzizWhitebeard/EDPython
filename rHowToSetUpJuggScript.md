@@ -21,7 +21,7 @@ Steps on how to setup Jugg Script:
 
 7. Type in "cd C:\Users\USERNAME\Desktop\EDPython-main" in Windows Powershell to have windows powershell active in that folder.
 
-8. Ensure your window resolution is 1980x1080p otherwise the script will not work.
+8. Ensure your window resolution is 1920x1080p otherwise the script will not work.
 
 9. Login into Epicduel, goto a  war objective(Where bombs are a dropped), hide somewhere, Turn on DND and goto a random world.
 
