@@ -8,7 +8,7 @@ import warObjective as WAR
 skype = False
 
 warTime = True
-wantWarCommander = True
+wantWarCommander = False
 
 killLimit = -1
 maxBattles = 50
