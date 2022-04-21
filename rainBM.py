@@ -173,7 +173,7 @@ def checkForHealHuman():
 
 
 def withHumans(r,g,b, HumanTop, HumanBottom):
-    global Human
+    global Human, turns
     #Top NPC Color
     #(1111, 267, (177, 8, 8))
 
